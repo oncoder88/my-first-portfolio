@@ -37,11 +37,17 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+img {
+  border-radius: 5px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
 }
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -181,7 +187,7 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   h1 {
     font-size: 44px;
     line-height: 56px;
@@ -211,6 +217,11 @@ footer .social-links a:hover {
   .logo a {
     font-size: 20px;
   }
+  
+   .project-description {
+    padding-top: 0;
+  }
+
 }
 
 @media (max-width: 415px) {
@@ -221,4 +232,6 @@ footer .social-links a:hover {
     display: block;
     margin: auto;
   }
+
+ 
 }
