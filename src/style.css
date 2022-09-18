@@ -28,7 +28,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -40,7 +40,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -57,7 +57,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -148,6 +148,7 @@ footer {
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
+  border-radius: 5px;
 }
 
 footer .contact-box p {
@@ -201,10 +202,6 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   nav a {

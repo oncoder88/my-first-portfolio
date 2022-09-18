@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="Olena is a front-end engineer based in Portugal."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,36 +31,36 @@
       src="https://kit.fontawesome.com/75f4efda4d.js"
       crossorigin="anonymous"
     ></script>
-    <title>Portfolio Olena Soroka</title>
+    <title>Front-end developer - Olena Soroka</title>
   </head>
   <body>
-    <nav>
-      <div class="container d-flex justify-content-between">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
         <div class="logo">
-          <a href="index.html">Olena.</a>
+          <a href="index.html" title="Homepage">Olena.</a>
         </div>
         <ul>
           <li class="active">
-            <a href="/index.html">Home</a>
+            <a href="/index.html" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Olena">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="About Olena's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Olena">Contact</a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Olena Soroka</h1>
       <h2 class="mb-5">Frond-end developer based in Portugal</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">
@@ -66,7 +69,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/porto.png" class="img-fluid" alt="" />
+          <img src="images/porto.png" class="img-fluid" alt="Porto landing page preview" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -77,7 +80,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -91,16 +94,16 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.png" class="img-fluid" alt="" />
+          <img src="images/weather-app.png" class="img-fluid" alt="Weather app preview" />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary app preview" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -111,37 +114,68 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="contact-box d-flex justify-content-evenly mb-5 d-none d-md-flex">
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-evenly mb-5 d-none d-md-flex"
+      >
         <div>
-          <h4>Work Inquiry</h4>
+          <h3>Work Inquiry</h3>
           <p class="text-muted">Let's work together</p>
         </div>
         <div>
-          <a href="" class="btn btn-branding mt-3">Contact me</a>
+          <a 
+          href="/contact.html" class="btn btn-branding mt-3"
+          title="Contact Olena"
+          >
+          Contact me
+        </a>
         </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:olenasoroka32@gmail.com" class="email-link"
+        <a href="mailto:olenasoroka32@gmail.com" 
+        class="email-link"
+        title="Email Olena"
           >olenasoroka32@gmail.com</a
         >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/olena-soroka-3b7883244/">
+        <a 
+        href="https://www.linkedin.com/in/olena-soroka-3b7883244/"
+        target="_blank"
+        title="Linkedn Profile"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100010301076690">
+        <a href="https://www.facebook.com/profile.php?id=100010301076690"
+        target="_blank"
+        title="Facebook Profile"
+        >
           <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="https://github.com/oncoder88">
+        <a 
+        href="https://github.com/oncoder88"
+        target="_blank"
+        title="GitHub Profile"
+        >
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
+      <p class="text-center mt-5">
+      👩🏻‍💻 This project was coded by Olena, and it is 
+      <a 
+      href="https://github.com/oncoder88/my-first-portfolio"
+      target="_blank"
+      title="GitHub repository"
+      >
+      open-sourced
+      </a> 
+      </p>
     </footer>
+    </div>
   </body>
 </html>
